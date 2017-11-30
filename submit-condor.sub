@@ -1,0 +1,5 @@
+executable            = run.sh
+output                = out/hello.$(ClusterId).$(ProcId).out
+error                 = out/hello.$(ClusterId).$(ProcId).err
+log                   = out/hello.$(ClusterId).log
+queue arguments from allfiles.txt
